@@ -1,7 +1,7 @@
 var student = {
   name: "",
-  type: "student";
-}
+  type: "student"
+};
 document.addEventListener('DOMContentLoaded',contentLoaded);
 function contentLoaded(event) {
   document.getElementById('name').addEventListener("keyup",keyUp);
